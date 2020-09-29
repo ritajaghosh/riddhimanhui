@@ -1,103 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+    <title>Bootstrap Example</title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Happy Birthday Riddhi</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+        body {
+            background-image: url(image/bgimg0.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        #wish-message{
+            font-size: 65px;
+            color:blue;
+        }
+        #wish{
+            font-size: 23px;
+            color: black;
+            font-style: initial;
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-	<style>
+        }
+        #wish2{
+            font-size: 23px;
+            color:black;
+            font-style: initial;
+        }
+        #link{
+            text-align: center;
+        }
+        #Riddhi{
+            text-align: center;
+            color: blue;
+        }
+        marquee{
+            color: white;
+        }
+    </style>
+</head>
+<body>
 
-                body {
-                        background-image: url(image/bgimg0.jpg);
-                        background-repeat: no-repeat;
-                        background-attachment: fixed;  
-                        background-size: cover;
-                }
-                #wish-message{
-                    font-size: 65px;
-                    color:blue;
-                }
-                #wish{
-                    font-size: 23px;
-                    color: black;
-                    font-style: initial;
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand/logo -->
+    <a class="navbar-brand" href="#">
+        <img src="image/logo.jpg" alt="logo" style="width:40px;">
+    </a>
 
-                }
-                #wish2{
-                        font-size: 23px;
-                        color:black;
-                        font-style: initial;
-                }
-                #link{
-                    text-align: center;
-                }
-                #Riddhi{
-                    text-align: center;
-                    color: blue;
-                }
-             </style>
-  </head>
-  <body>
-      <div class="container">
-          <div class="row">
-              <div>
-                  <marquee behavior="alternate"><p style="font-family: Impact; font-size: 18pt">Happy Birthday Riddhi</p></marquee>
-              </div>
-          </div>
-      </div>
+    <!-- Links -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="detail1.html">Page2</a>
+        </li>
+    </ul>
+    <div class="row">
+            <div>
+                <marquee behavior="alternate"><p style="font-family: Impact; font-size: 18pt">Happy Birthday Riddhi</p></marquee>
+            </div>
+        </div>
+</nav>
 
-    
-                    <div class="container" >
-                        <!-- <p style="font-family:verdana">HAPPY BIRTHDAY RIDDHI.</p> -->
-                        <div  id="wish-message" style="font-family:cursive">Wish you a very Happy birthday <div id="Riddhi">RIDDHI</div></div>
-                        
-                        <div class="row">
-                            <div class="col-3" id="wish" style="text-shadow: 1px 1px 2px #95e861, 0 0 25px #f9ffc6, 0 0 5px #ffffff;">
-                                <b>Wish you a happiest new normal birthday baby wish you a more candles to blow,god bless you and loads of love to you</b> <br>
-                                <b>From Your serial killer</br>
-                                <img src="image/ritaja_text.png" width="80px">
-                                </b><br><br><b>Happy Birthday Riddhi many many happy returns of the day অনেক মজা করিস আজকের দিনটা</b><br>
-                                <b>From Your Mou Di</b><br>
-                                <img src="image/mou_text.png" width="80px">
-                            
-                            </div>
-                            <div style="text-align: center;">
-                                <img src="image/image1.png"  style="width: 400px; border-radius: 50%;">
-                            </div>
-                            <div class="col-3" id="wish2">
-                                <b>Happy birthday Riddhi. God bless you. Stay happy, stay healthy</b><br>
-                                <b>From Your Cipu Di</b><br>
-                                <img src="image/cipu_text.png" width="80px"><br>
-                                <b>Happy birthday RIDDHI, many many happy returns of the day ,stay blessed and happy . Enjoy your day and have all the happiness of the world</b><br>
-                                <b>From Your Mounita Di</b> </div>
-                                <img src="image/mounit_text.png" width="80px">
-                        </div>
-                    
-                    </div>
-                    <div id="link">
-                        <h1 >welcome here </h1>
-                        <p><a href="detail1.html"><h1>click here</h1></a></p>
-                    </div>
+    <div  id="wish-message" style="font-family:cursive; text-align: center">Wish you a very Happy birthday <span id="Riddhi">RIDDHI</span></div>
+    <div class="container" >
+        <div class="row">
+            <div class="col" id="wish" style="text-shadow: 1px 1px 2px #95e861, 0 0 25px #f9ffc6, 0 0 5px #ffffff;">
+                <b>Wish you a happiest new normal birthday baby wish you a more candles to blow,god bless you and loads of love to you</b> <br>
+                <b>From Your serial killer</br>
+                    <img src="image/ritaja_text.png" width="80px">
+                </b><br><br><b>Happy Birthday Riddhi many many happy returns of the day অনেক মজা করিস আজকের দিনটা</b><br>
+                <b>From Your Mou Di</b><br>
+                <img src="image/mou_text.png" width="80px">
+            </div>
+            <div class="col" style="text-align: center;">
+                <img src="image/image1.png"  style="width: 400px; border-radius: 50%;">
+            </div>
+            <div class="col" id="wish2">
+                <b>Happy birthday Riddhi. God bless you. Stay happy, stay healthy</b><br>
+                <b>From Your Cipu Di</b><br>
+                <img src="image/cipu_text.png" width="80px"><br>
+                <b>Happy birthday RIDDHI, many many happy returns of the day ,stay blessed and happy . Enjoy your day and have all the happiness of the world</b><br>
+                <b>From Your Mounita Di</b>
+                <img src="image/mounit_text.png" width="80px">
+            </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+        </div>
+
+    </div>
+    <div id="link">
+        <h1 >welcome here </h1>
+        <p><a href="detail1.html"><h1>click here</h1></a></p>
+    </div>
+
+
+</body>
 </html>
-
-
-
-
-
